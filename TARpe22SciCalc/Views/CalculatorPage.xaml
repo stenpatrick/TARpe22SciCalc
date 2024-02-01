@@ -359,8 +359,8 @@
             Margin="0,0,1,0"
             Style="{StaticResource NumberButtonStyle}"
             Text=","
-            Command="{Binding MathOperatorCommand}"
-            CommandParameter="," />
+            Command="{Binding NumberInputCommand}"
+            CommandParameter="." />
 
         <!--math buttons-->
         <Button
