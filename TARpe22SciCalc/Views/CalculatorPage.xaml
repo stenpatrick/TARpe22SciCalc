@@ -210,7 +210,6 @@
             Command="{Binding ScientificOperatorCommand}"
             CommandParameter="POW" />
 
-        <!-- Row 4 -->
         <Button
             Grid.Row="5"
             Grid.Column="0"
@@ -270,7 +269,7 @@
             Margin="0,1,1,0"
             Style="{StaticResource NumberButtonStyle}"
             Text="9"
-            Command="{Binding MathOperatorCommand}"
+            Command="{Binding NumberInputCommand }"
             CommandParameter="9" />
         <Button
             Grid.Row="6"
@@ -279,7 +278,7 @@
             Margin="0,1,1,0"
             Style="{StaticResource NumberButtonStyle}"
             Text="8"
-            Command="{Binding MathOperatorCommand}"
+            Command="{Binding NumberInputCommand }"
             CommandParameter="8" />
         <Button
             Grid.Row="6"
@@ -288,7 +287,7 @@
             Margin="0,1,1,0"
             Style="{StaticResource NumberButtonStyle}"
             Text="7"
-            Command="{Binding MathOperatorCommand}"
+            Command="{Binding NumberInputCommand }"
             CommandParameter="7" />
         <Button
             Grid.Row="7"
@@ -297,7 +296,7 @@
             Margin="0,1,1,0"
             Style="{StaticResource NumberButtonStyle}"
             Text="6"
-            Command="{Binding MathOperatorCommand}"
+            Command="{Binding NumberInputCommand }"
             CommandParameter="6" />
         <Button
             Grid.Row="7"
@@ -306,7 +305,7 @@
             Margin="0,1,1,0"
             Style="{StaticResource NumberButtonStyle}"
             Text="5"
-            Command="{Binding MathOperatorCommand}"
+            Command="{Binding NumberInputCommand }"
             CommandParameter="5" />
         <Button
             Grid.Row="7"
@@ -315,7 +314,7 @@
             Margin="0,1,1,0"
             Style="{StaticResource NumberButtonStyle}"
             Text="4"
-            Command="{Binding MathOperatorCommand}"
+            Command="{Binding NumberInputCommand }"
             CommandParameter="4" />
         <Button
             Grid.Row="8"
@@ -324,7 +323,7 @@
             Margin="0,1,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Text="3"
-            Command="{Binding MathOperatorCommand}"
+            Command="{Binding NumberInputCommand }"
             CommandParameter="3" />
         <Button
             Grid.Row="8"
@@ -333,7 +332,7 @@
             Margin="0,1,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Text="2"
-            Command="{Binding MathOperatorCommand}"
+            Command="{Binding NumberInputCommand }"
             CommandParameter="2" />
         <Button
             Grid.Row="8"
@@ -342,7 +341,7 @@
             Margin="0,1,1,1"
             Style="{StaticResource NumberButtonStyle}"
             Text="1"
-            Command="{Binding MathOperatorCommand}"
+            Command="{Binding NumberInputCommand }"
             CommandParameter="1" />
         <Button
             Grid.Row="9"
@@ -351,7 +350,7 @@
             Margin="0,0,1,0"
             Style="{StaticResource NumberButtonStyle}"
             Text="0"
-            Command="{Binding MathOperatorCommand}"
+            Command="{Binding NumberInputCommand}"
             CommandParameter="0" />
         <Button
             Grid.Row="9"
