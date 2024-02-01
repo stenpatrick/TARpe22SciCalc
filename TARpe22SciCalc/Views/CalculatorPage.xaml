@@ -359,10 +359,77 @@
             ZIndex="1"
             Margin="0,0,1,0"
             Style="{StaticResource NumberButtonStyle}"
-            Text="."
+            Text=","
             Command="{Binding MathOperatorCommand}"
-            CommandParameter="." />
+            CommandParameter="," />
 
+        <!--math buttons-->
+        <Button
+            Grid.Row="8"
+            Grid.Column="4"
+            ZIndex="1"
+            Margin="0,0,1,1"
+            Style="{StaticResource OperatorButtonStyle}"
+            Text="-"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="-" />
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="3"
+            ZIndex="1"
+            Margin="0,0,1,1"
+            Style="{StaticResource OperatorButtonStyle}"
+            Text="+"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="+" />
+        <Button
+            Grid.Row="7"
+            Grid.Column="4"
+            ZIndex="1"
+            Margin="0,0,1,1"
+            Style="{StaticResource OperatorButtonStyle}"
+            Text="÷"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="/" />
+
+        <Button
+            Grid.Row="7"
+            Grid.Column="3"
+            ZIndex="1"
+            Margin="0,0,1,1"
+            Style="{StaticResource OperatorButtonStyle}"
+            Text="x"
+            Command="{Binding MathOperatorCommand}"
+            CommandParameter="*" />
+
+        <Button
+            Grid.Row="6"
+            Grid.Column="4"
+            ZIndex="1"
+            Margin="-105,1,1,1"
+            Style="{StaticResource OperatorButtonStyle}"
+            Text="AC"
+            Command="{Binding ResetCommand}"
+            CommandParameter="AC" />
+        
+        <Button
+            Grid.Row="9"
+            Grid.Column="2"
+            ZIndex="1"
+            Margin="0,0,1,1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="⌫"
+            Command="{Binding BackspaceCommand}" />
+
+        <Button
+            Grid.Row="9"
+            Grid.Column="4"
+            ZIndex="1"
+            Margin="-105,0,1,0"
+            Style="{StaticResource OperatorButtonStyle}"
+            Text="="
+            Command="{Binding CalculateCommand}"/>
     </Grid>
 
 </ContentPage>
